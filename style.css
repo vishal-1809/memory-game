@@ -10,7 +10,7 @@
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     grid-template-columns: auto auto auto auto auto auto auto auto;
-    margin-left: 33.5%;
+    margin-left: 25%;
     grid-gap: 5px;
     border-radius: 10px;
 }
