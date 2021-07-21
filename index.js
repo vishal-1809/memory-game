@@ -339,7 +339,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             let create = document.createElement('img');
             create.className+='imgs';
             create.setAttribute('src',"https://i.stack.imgur.com/mwFzF.png");
-            // create.setAttribute('id',(arr[index].vy));
+            // create.setAttribute('src',arr[index].links);
             create.setAttribute('id',index+1);
             create.addEventListener('click',flip);
             grid.appendChild(create);
@@ -392,21 +392,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
 
     create();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 });
